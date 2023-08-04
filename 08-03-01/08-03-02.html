@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Tabela Colorida</title>
+        <meta charset="utf-8"/>
+        <style>
+            .vermelho, th{
+                color: red;
+            }
+            .azul{
+                color: blue;
+            }
+            .verde{
+                color: green;
+            }
+            table{
+                background: RGB(253, 241, 194);
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px" align="center">
+            <tr class="vermelho">
+                <th>Frutas</th>
+                <th>Verduras</th>
+                <th>Graos</th>
+                <th>...</th>
+            </tr>
+            <tr class="azul">
+                <td>Maca</td>
+                <td>Alface</td>
+                <td>Arroz</td>
+                <td rowspan="3">3 linhas</td>
+            </tr>
+            <tr class="verde">
+                <td colspan="3">3 colunas</td>
+            </tr>
+        </table>
+    </body>
+</html>

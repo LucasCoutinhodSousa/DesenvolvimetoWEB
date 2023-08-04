@@ -1,0 +1,19 @@
+h1{
+    color: aqua;
+}
+
+.cori{
+    text-align: center;
+    color: black;
+}
+
+.hortalicia{
+    height: 280px;
+}
+
+.caixa1{
+    background-color: purple;
+    height: 800px;
+    width: 200px;
+    display: inline-block ;
+}
