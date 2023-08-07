@@ -1,20 +1,68 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
 .menuLateral1{
     background-color: orange;
-    width: 19%;
-    height: 500px;
+    width: 20%;
+    height: 1000px;
     display: inline-block;
+    text-align: center;
+    padding: 10px;
 }
 
 .principal{
     display: inline-block;
-    background-color: aqua;
     width: 60%;
-    height: 500px;
+    height: 1000px;
+    padding-top: 200px;
 }
 
 .arquivo{
     display: inline-block;
-    background-color: blue;
-    width: 19%;
-    height: 500px;
+    width: 20%;
+    height: 1000px;
+}
+
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: black;
+}
+
+.links a:hover{
+    color: blue;
+    background: blueviolet;
+}
+
+.links a{
+    background: aqua;
+}
+
+.link-conteudo{
+    width: 100%;
+    border: 1px solid red;
+    background-color: orange;
+}
+
+.link-conteudo a{
+    position: relative;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: orange;
+
+}
+
+.rodape{
+    padding-top: 100px;
+}
+
+.conteudo-lateral{
+    padding-top: 220px;
 }
