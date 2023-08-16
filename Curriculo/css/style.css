@@ -1,0 +1,75 @@
+body{
+    background:  rgb(172, 212, 212);
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    display: inline-block;
+    position: relative;
+}
+
+.topo{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+.perfil{
+    width: 25%;
+    background: RGB(152, 215, 228);
+    display: inline-block;
+}
+
+.perfil-img{
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.conteudo{
+    display: inline-block;
+    width: 75%;
+    background-color: RGB(50, 46, 97);
+}
+
+.text-gran{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+hr{
+    border-color: black;
+    width: 80%;
+}
+
+.text-med{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.experiencia{
+    display: inline-block;
+    width: 10%;
+}
+
+.pontos{
+    display: inline-block;
+    width: 9%;
+    size: 50px;
+    margin-left: 210px;
+    font-weight: bold;
+}
+
